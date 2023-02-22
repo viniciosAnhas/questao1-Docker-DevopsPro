@@ -1,0 +1,34 @@
+version: '3.8'
+
+volumes:
+  mongo_vol:
+
+networks:
+  produto_net:
+    driver: bridge
+
+services:
+  api:
+    image: 
+    build:
+      dockerfile: 
+      context: 
+    ports:
+      - 
+    networks:
+      - 
+    depends_on:
+      - 
+    environment:
+      MONGODB_URI: 
+  mongodb:
+    image: 
+    ports:
+      - 
+    networks:
+      - 
+    volumes:
+      - 
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: 
+      MONGO_INITDB_ROOT_PASSWORD: 
